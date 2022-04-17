@@ -12,7 +12,7 @@ public class Metodos {
 
 	WebDriver driver;
 
-	public void clica(By elemento) {
+	public void clicar(By elemento) {
 	driver.findElement(elemento).click();	
 
 	}

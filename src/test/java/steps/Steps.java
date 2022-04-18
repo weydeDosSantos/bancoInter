@@ -19,7 +19,7 @@ public class Steps {
 	@Dado("^selecione o campo abra a sua conta$")
 	public void selecione_o_campo_abra_a_sua_conta() throws Throwable {
 		m.pausa(3000);
-		m.clicar(e.getBtnContinuar());
+		m.clicar(e.getBtnAbrirSuaConta());
 	}
 
 	@Dado("^preencha os dados$")

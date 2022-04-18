@@ -39,7 +39,6 @@ public class Metodos {
 	}
 	public void espera(int time) {
 
-	driver.manage().timeouts().implicitlyWait(time,TimeUnit.MILLISECONDS) ;
 	}
 	}
 

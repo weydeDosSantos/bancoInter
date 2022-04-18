@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class Elementos {
 
-	private By btnAbrirSuaConta = By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/div/header/div/div/div[3]/div/button");
+	private By btnAbrirSuaConta = By.xpath("/html/body/div[1]/div[1]/div/header/div/div/div[3]/div/button");
 	private By campoNome = By.id("nome");
 	private By campoTelefone = By.id("celular");
 	private By campoEmail = By.id("email");
